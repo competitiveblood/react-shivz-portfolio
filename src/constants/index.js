@@ -4,9 +4,22 @@ import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.jpeg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `
+Hey there! I'm a dynamic MERN stack developer by day
+and a hip-hop enthusiast by night. I live by the rhythm
+of the beat and the hum of the code. My journey in tech
+started with a curiosity for how things work, evolving
+into a love for crafting robust and scalable web
+applications.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+Passionate about problem-solving and competitive programming,
+I'm always looking for new challenges to sharpen my skills
+and push the boundaries of what's possible.
+`;
+
+
+
+export const ABOUT_TEXT = `I'm currently diving into several key concepts in natural language processing (NLP). Large Language Models (LLM) are fascinating because they empower AI to understand and generate human-like text, like those seen in advanced chatbots and automated content generation. Prompt engineering is critical as it involves crafting precise input queries to guide these models towards desired outputs, enhancing their practical applications. Transformers, with their encoder-decoder architecture and attention mechanisms, stand out for their ability to handle complex language tasks efficiently, from translation to summarization. Exploring these topics helps me grasp how cutting-edge AI models can transform data into meaningful insights and innovations.`;
 
 export const EXPERIENCES = [
   {
