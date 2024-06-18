@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/kevinRushLogo.png";
+import logo from "../assets/Logo1.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
