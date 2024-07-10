@@ -3,6 +3,8 @@ import project21 from "../assets/projects/project-21.png";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.jpeg";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `
 Hey there! I'm a dynamic MERN stack developer by day
@@ -19,7 +21,7 @@ and push the boundaries of what's possible.
 
 
 
-export const ABOUT_TEXT = `I'm currently diving into several key concepts in natural language processing (NLP). Large Language Models (LLM) are fascinating because they empower AI to understand and generate human-like text, like those seen in advanced chatbots and automated content generation. Prompt engineering is critical as it involves crafting precise input queries to guide these models towards desired outputs, enhancing their practical applications. Transformers, with their encoder-decoder architecture and attention mechanisms, stand out for their ability to handle complex language tasks efficiently, from translation to summarization. Exploring these topics helps me grasp how cutting-edge AI models can transform data into meaningful insights and innovations.`;
+export const ABOUT_TEXT = `I am equally fascinated by my exploration into blockchain technology, which offers transformative potential across diverse industries due to its decentralized nature and robust cryptographic security. Essential tools such as Metamask, Truffle, and Ganache play integral roles in this exploration: Metamask, a browser extension, facilitates seamless interaction with Ethereum blockchain applications, ensuring secure management of wallets and digital assets. Truffle serves as a versatile development framework for Ethereum, streamlining processes from smart contract creation to testing and deployment. Ganache further enhances the development experience by providing a local blockchain environment with simulated accounts, enabling rapid prototyping and testing. This exploration deepens my understanding of how blockchain technology, coupled with advanced tools, drives innovation and unlocks new possibilities in today's digital landscape.`;
 
 export const EXPERIENCES = [
   {
@@ -33,15 +35,15 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Internship Trainee",
     company: "Ministry of Electronics and Information Technology",
-    description: `Currently interning at the Ministry of Electronics and Information Technology: managing AWS EC2, organizing engineering seminars, developing a tourism chatbot, and participating in a blockchain technology workshop by industry leaders.`,
-    technologies: ["AWS", "Excel", "Python", "SQL"],
+    description: `At STPI, I manage government-incubated startups, focusing on exploring blockchain technology applications and enhancing expertise in blockchain development and implementation for innovative solutions.`,
+    technologies: ["Hyperledger", "Solidity", "Python", "Firebase","Truffle", "Ganache"],
   },
   {
     year: "2024 - Present",
     role: "Research & Development Intern",
     company: "Boxfarming Technologies",
-    description: `Currently, my ongoing internship involves pomegranate projects focusing on soil quality, climate needs, market demand, non-destructive quality evaluation, grading, disease detection, and farming monitoring.`,
-    technologies: ["Python", "PyCharm", "Research"],
+    description: `Developed a web app using Flask, TensorFlow, and Keras for pomegranate disease detection. Researched pomegranate growth patterns, aiding farmers and traders in early disease identification, improving crop management, and reducing economic losses.`,
+    technologies: ["TensorFlow", "Keras", "OpenCV"],
   },
 ];
 
@@ -78,13 +80,28 @@ export const PROJECTS = [
     title: "Student Management System",
     image: project5,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Created a Student Management System (SMS) to streamline administrative tasks for educational institutions.",
     technologies: ["Python", "Tkinter", "MySQL"],
   },
+  {
+    title: "PomegranateGuard",
+    image: project6,
+    description:
+      "A web app using deep learning to detect pomegranate diseases from images.",
+    technologies: ["Flask", "TensorFlow", "Keras"," JavaScript (jQuery)","OpenCV"],
+  },
+  {
+    title: "Jo(B)oard",
+    image: project7,
+    description:
+      "I developed a Job Portal website using ReactJS, Tailwind CSS, and Firebase Firestore to connect job seekers with opportunities efficiently, promoting employment and career growth in the tech industry.",
+    technologies: ["ReactJS", "Tailwind CSS", "Firestore Firebase"],
+  },
+  
 ];
 
 export const CONTACT = {
   address: "Manipal University Jaipur ",
   phoneNo: "+91 9599044965 ",
-  email: "Shivangigct@gmail.com",
+  email: "shivangigct@gmail.com",
 };
