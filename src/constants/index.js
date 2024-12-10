@@ -7,45 +7,63 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `
-Hey there! I'm a dynamic MERN stack developer by day
+Hey there! I'm a dynamic programmer by day
 and a hip-hop enthusiast by night. I live by the rhythm
 of the beat and the hum of the code. My journey in tech
 started with a curiosity for how things work, evolving
 into a love for crafting robust and scalable web
 applications.
 
-Passionate about problem-solving and competitive programming,
+Passionate about problem-solving and Competitive Programming,
 I'm always looking for new challenges to sharpen my skills
 and push the boundaries of what's possible.
 `;
 
 
 
-export const ABOUT_TEXT = `I am equally fascinated by my exploration into blockchain technology, which offers transformative potential across diverse industries due to its decentralized nature and robust cryptographic security. Essential tools such as Metamask, Truffle, and Ganache play integral roles in this exploration: Metamask, a browser extension, facilitates seamless interaction with Ethereum blockchain applications, ensuring secure management of wallets and digital assets. Truffle serves as a versatile development framework for Ethereum, streamlining processes from smart contract creation to testing and deployment. Ganache further enhances the development experience by providing a local blockchain environment with simulated accounts, enabling rapid prototyping and testing. This exploration deepens my understanding of how blockchain technology, coupled with advanced tools, drives innovation and unlocks new possibilities in today's digital landscape.`;
+export const ABOUT_TEXT = `
+  I’m someone who thrives in dynamic environments and loves tackling challenges head-on. Through my leadership roles as 
+  Executive Director at IEEE WIE MUJ and Academic Head at the Indian Game Theory Society, I’ve had the opportunity to 
+  lead teams, organize events, and create spaces for students to grow and explore new technologies. These experiences 
+  have taught me the importance of collaboration, problem-solving, and bringing people together to achieve common goals.
+
+  I’m always eager to learn and grow—whether it’s diving into machine learning, experimenting with blockchain, or 
+  exploring new ways to solve problems. One project that stands out for me is the 
+  Comparative Analysis of Dimensionality Reduction Techniques in Machine Learning Models for Liver Disease Detection, 
+  where I really honed my research skills and attention to detail.
+
+  I also worked on FraudFend, a deep learning-based mobile fraud detection system that achieved 99.7% accuracy. This 
+  project involved addressing class imbalance using oversampling and class weights, combining numerical features with 
+  customer ID embeddings, and evaluating the system using metrics like AUC, Confusion Matrix, and Classification Report. 
+  It integrates categorical encoding, text tokenization, and feature scaling to ensure real-time fraud detection in mobile 
+  payment transactions.
+`;
+
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "June 2024 - July 2024",
     role: "Research Intern",
-    company: "NIT Mizoram",
-    description: `Enhancing Traffic Flow Monitoring and Anomaly Detection using Collaborative UAVs Equipped with Lightweight Object Detection Models.`,
-    technologies: ["YOLO", "PyTorch", "OpenCV", "RESTful APIs"],
+    company: "National Institute of Technology Mizoram",
+    description: `Researched on UAV-based traffic monitoring system using collaborative flight planning. Implemented lightweight object detection with MobileNet SSD and real-time anomaly detection. Leveraged ROS, TensorFlow Lite, and OpenCV for efficient traffic analysis.`,
+    technologies: ["ROS", "TensorFlow Lite", "OpenCV", "MobileNet SSD"],
   },
   {
-    year: "2024 - Present",
-    role: "Internship Trainee",
+    year: "May 2024 - August 2024",
+    role: "Blockchain Trainee Intern",
     company: "Ministry of Electronics and Information Technology",
-    description: `At STPI, I manage government-incubated startups, focusing on exploring blockchain technology applications and enhancing expertise in blockchain development and implementation for innovative solutions.`,
-    technologies: ["Hyperledger", "Solidity", "Python", "Firebase","Truffle", "Ganache"],
+    description: `Completed a comprehensive 2-month training program on Web3 and Hedera blockchain technology at STPI. Gained in-depth knowledge of Hedera network architecture, core concepts, and services. Achieved Hedera Hashgraph Developer Certification.`,
+    technologies: ["Hedera Blockchain", "Web3", "Python", "Solidity", "Truffle", "Ganache"],
   },
   {
-    year: "2024 - Present",
+    year: "May 2024 - August 2024",
     role: "Research & Development Intern",
     company: "Boxfarming Technologies",
-    description: `Developed a web app using Flask, TensorFlow, and Keras for pomegranate disease detection. Researched pomegranate growth patterns, aiding farmers and traders in early disease identification, improving crop management, and reducing economic losses.`,
+    description: `Conducted research on pomegranate diseases, including Heartrot and Anthracnose. Collaborated with farmers in Pune to implement solutions that resulted in a 15% increase in yield for partnered farmers.`,
     technologies: ["TensorFlow", "Keras", "OpenCV"],
   },
 ];
+
 
 export const PROJECTS = [
   {
