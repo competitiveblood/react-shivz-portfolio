@@ -9,7 +9,7 @@ const Navbar = () => {
                 <a href="https://www.linkedin.com/in/competitiveblood/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
-                <a href="https://github.com/competitiveblood" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/shivangiS04" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
                 <a href="https://leetcode.com/u/competitiveblood/" target="_blank" rel="noopener noreferrer">
